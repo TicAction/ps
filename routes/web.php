@@ -16,3 +16,8 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+
+//frontend
+
+Route::get('/index','FrontendsController@index')->name('front_index');
